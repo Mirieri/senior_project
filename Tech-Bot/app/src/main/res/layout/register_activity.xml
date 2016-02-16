@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/regFullName"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/Full_name"
+        android:padding="10dp"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/regUsername"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/Username"
+        android:padding="10dp"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/regEmail"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/regFirstPassword"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/Password"
+        android:padding="10dp"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint"
+        android:textStyle="bold|italic"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@color/white"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:id="@+id/regPassword"
+        android:hint="@string/RetypePassword"
+        android:padding="10dp"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint"
+        android:password="true"
+        android:textStyle="bold|italic"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/regButton"
+        android:layout_gravity="bottom|center_horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp" />
+
+    <Button
+        android:id="@+id/btnLinkToLoginScreen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:background="@null"
+        android:text="@string/btn_link_to_login"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+    </LinearLayout>
+</LinearLayout>

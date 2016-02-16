@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tech-Bot</string>
+    <string name="Full_name">Full Name</string>
+    <string name="btn_link_to_login">Log in</string>
+    <string name="btn_link_to_register">Sign Up</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="RetypePassword">Re-type Password</string>
+    <string name="Email">Email</string>
+</resources>
